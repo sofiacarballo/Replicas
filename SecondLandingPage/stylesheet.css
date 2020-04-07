@@ -3,7 +3,6 @@ body {
   margin: 0;
   width: 100%;
   min-height: 100%;
-  background-color: white;
 }
 
 header {
@@ -109,13 +108,13 @@ a {
 }
 
 h3 {
-  transform: translate(15%, -60px);
+  transform: translate(15%, -60px)
 }
 
 .item-text {
-  position: relative;
-  transform: translate(-30%, -55%);
-  text-align: center;
+ position: relative;
+ transform: translate(-30%, -55%);
+ text-align:center;
 }
 
 .testimonial {
@@ -135,19 +134,21 @@ h3 {
   padding-top: 2%;
 }
 
+
 span {
   font-weight: 900;
 }
 
 #quotation {
-  width: 4%;
-  padding-right: 75%;
-  padding-top: 5%;
+ width: 4%;
+ padding-right: 75%;
+ padding-top: 5%;
 }
 
 .text {
   justify-content: space-evenly;
 }
+
 
 .btn .footer {
   position: fixed;
@@ -163,3 +164,4 @@ footer {
   left: 0;
   padding: 1rem;
 }
+
