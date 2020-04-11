@@ -153,19 +153,19 @@ nav li {
 }
 
 .categories li:nth-child(1) {
-    background-image: url(/images/bathroom.jpg);
+    background-image: url(images/bathroom.jpg);
 }
 
 .categories li:nth-child(2) {
-    background-image: url(/images/kitchen.jpg);
+    background-image: url(images/kitchen.jpg);
 }
 
 .categories li:nth-child(3) {
-    background-image: url(/images/bedroom.jpg);
+    background-image: url(images/bedroom.jpg);
 }
 
 .categories li:nth-child(4) {
-    background-image: url(/images/livingroom.jpg);
+    background-image: url(images/livingroom.jpg);
 }
 
 footer {
