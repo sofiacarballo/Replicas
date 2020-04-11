@@ -5,8 +5,8 @@ body {
   background-color: #7cf49a;
   color: white;
   display: grid;
-  grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
-  grid-template-rows: 100px 100px 100px 100px 100px 100px;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
 }
 
 a {
