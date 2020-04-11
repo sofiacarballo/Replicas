@@ -42,9 +42,9 @@ a {
 header {
   margin: -16px;
   background-color: #db5461;
-  clip-path: polygon(0 0, 90% 0, 100% 100%, 0% 100%);
+  clip-path: polygon(0 0, 80% 0, 100% 100%, 0% 100%);
   width: 66%;
-  height: 650px;
+  height: 780px;
 }
 
 #grey-text-header {
