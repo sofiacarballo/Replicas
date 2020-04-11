@@ -1,0 +1,180 @@
+html {
+    box-sizing: border-box;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #4a4a4a;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+display: grid;
+}
+
+header {
+    color: #4a4a4a;
+    width: 100%;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #c4c4c6;
+}
+
+a:hover {
+    color: 	#4a4a4a;
+}
+
+nav {
+    display: grid;
+    margin-top: 40px;
+}
+
+#logo {
+    max-height: 40px;
+    max-width: 30%; 
+    margin-left: 40px; 
+    float: left;
+}
+
+nav ul {
+    text-align: right;
+    padding-right: 30px;
+    font-size: 14px;
+}
+
+nav li {
+    display: inline;
+    padding: 20px;
+}
+
+#search-icon {
+    max-height: 20px;
+    max-width: 30%; 
+    margin-right: 50px;
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+    background-image: url("images/header.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hero-text {
+    text-align: center;
+    font-size: 50px;
+    line-height: 345px;
+    letter-spacing: 5px;
+}
+
+.about {
+    margin-left: 15%;
+    margin-top: 5%;
+    text-align: left;
+}
+
+.about ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr))   
+}
+
+.about li {
+    
+    padding: 1.5rem 2rem;
+}
+
+.about h3 {
+    color: #9c9c9c;
+    font-size: 30px;
+}
+
+#provide {
+    text-align: left;
+}
+
+.icons {
+    width: 8%;
+}
+
+#plant-img {
+    
+}
+
+.categories {
+    background-color: #f3f3f3;
+    width: 100%;
+    margin-left: 0rem;
+}
+
+.categories h3 {
+    margin-left: 20%;
+    padding-top: 2%;
+    font-weight: 100;
+    font-size: 40px;
+}
+
+.categories ul{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 25%));
+    list-style-type: none;
+    color:white;
+    width: 100%;
+    height: 700px;
+    font-size: 30px;   
+    text-align: center;
+}
+
+.categories li{
+    background-size: cover;
+    background-position: center;
+}
+
+.categories li p {
+    padding-top: 65%;
+}
+
+.categories li:nth-child(1) {
+    background-image: url(/images/bathroom.jpg);
+}
+
+.categories li:nth-child(2) {
+    background-image: url(/images/kitchen.jpg);
+}
+
+.categories li:nth-child(3) {
+    background-image: url(/images/bedroom.jpg);
+}
+
+.categories li:nth-child(4) {
+    background-image: url(/images/livingroom.jpg);
+}
+
+footer {
+    background-color: #f3f3f3;
+    color: #c4c4c6;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    line-height: 40px;
+    position: fixed;
+    height: 70px;
+}
