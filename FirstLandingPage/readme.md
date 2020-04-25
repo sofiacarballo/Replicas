@@ -1,3 +1,10 @@
+# Project: Digital Elite - Web Replica
+ 
+ ### Designed by Johanna Sanchez & Sofia Carballo
+<br>
+<br>
+
+
 {\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf830
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;\f1\fnil\fcharset0 .AppleColorEmojiUI;}
 {\colortbl;\red255\green255\blue255;\red53\green53\blue53;\red220\green161\blue13;}
