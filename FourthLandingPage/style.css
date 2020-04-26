@@ -1,0 +1,288 @@
+:root {
+    --primary: #EB2227;
+    --darkgrey: #8B8B8B;
+    --lightgrey :#ADADAD;
+    --black: #000000;  
+  }
+  
+  body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Raleway', sans-serif;
+    }
+    
+    html {
+      box-sizing: border-box;
+    }
+    
+    *, *:after, *:before {
+      box-sizing: inherit;
+    }
+    
+    /*  header  */
+    
+    header{
+      display: flex;
+      flex-direction: row;
+      justify-content:space-between;
+      align-items: center;
+      padding: 48px 64px;
+      text-decoration: none;
+    }  
+    
+   ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+      color: var(--darkgrey);
+      font-size: 12px;
+      }
+    
+    li {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      }
+    
+    .main-menu li{
+      padding: 0 20px;
+      text-transform: uppercase;
+    }
+  
+    .main-menu li:hover{
+      color: var(--primary);
+    }
+    
+    .secondary-menu li{
+      margin: 4px;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+  
+    .button-square-fill{
+      background-color: var(--darkgrey); 
+      width: 52px;
+      height: 52px;
+    }
+  
+    .secondary-menu li:nth-child(1) {
+      background-image: url("images/share-icon-white.png");
+    }
+  
+    .secondary-menu li:nth-child(2) {
+      background-image: url("images/search-icon-white.png");
+    }
+  
+    .secondary-menu li:nth-child(3) {
+      background-image: url("images/shopping_cart-dark-grey.png");
+    }
+    
+    .button-square-border{
+      border: 2px solid var(--darkgrey);
+      width: 52px;
+      height: 52px;
+    }
+  
+    .flex-container {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin: 0 auto;
+      width: 90%;
+    }
+  
+    .container-title h1 {
+      text-transform: uppercase;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 26px;
+      color: var(--black);
+      letter-spacing: 1.5px;
+      margin: 20px 0px 10px;
+    }
+  
+    .container-title h2 {
+      font-size: 18px;
+      line-height: 25px;
+      font-weight: 400;
+      color: var(--lightgrey);
+      letter-spacing: 1.5px;
+      margin: 10px 0px 30px;
+    }
+  
+    .btn-cta {
+      font-size: 10px;
+      font-weight: 500;
+      text-transform: uppercase;
+      color: white;
+      background-color: var(--primary);
+      text-align: center;
+      justify-content: center;
+      width: 96px;
+      height: 29px;
+      line-height: 29px;
+    }
+  
+    .filter {
+      display: flex;
+      align-self: flex-end;
+      justify-self: flex-end;
+      text-transform: capitalize;
+      font-size:14px;
+      line-height: 30px;
+      font-weight: 400;
+    }
+  
+  .filter a:hover {
+    text-decoration: underline;
+  }
+    .filter li:after {
+      content: "/";
+      padding-left: 10px;
+      padding-right: 10px;
+      color: #ddd;
+      text-decoration: none;
+    }
+  
+    .filter li:last-child:after{
+      content: " ";
+    }
+  
+    .filter li:nth-child(1)
+    { 
+      color: var(--primary);
+      text-transform: uppercase;
+      text-decoration: none;
+    }
+  
+  .container-products {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 10px; 
+      flex-direction: column;
+      max-height: 470px;
+      margin-top: 30px;
+  } 
+  
+   .item {
+      margin: 10px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }  
+  
+  #overlay{
+    background-color: var(--primary);
+  }
+  
+  #overlay:hover{
+    opacity: 0.5;
+  }
+  
+    .container-products div:nth-child(1) {
+      background-image: url("images/magazines.jpg");
+      width: 430px;
+      height: 200px;
+      }
+  
+    .container-products div:nth-child(2) {
+      background-image: url("images/bike.jpg"); 
+      width: 430px;
+      height: 200px;
+    }
+  
+    .container-products div:nth-child(3) {
+      background-image: url("images/teapot.jpg");
+      width: 420px;
+      height: 420px;
+    }
+  
+    .container-products div:nth-child(4) {
+      background-image: url("images/table.jpg");
+      width: 200px;
+      height: 200px;
+    }
+  
+    .container-products div:nth-child(5) {
+      background-image: url("images/vase.jpg");
+      width: 200px;
+      height: 200px;
+    }
+  
+    .container-products div:nth-child(6) {
+      background-image: url("images/lamp.jpg"); 
+      width: 200px;
+      height: 420px;
+    }
+  
+    .container-products div:nth-child(7) {
+      background-image: url("images/desk.jpg");
+      width: 430px;
+      height: 200px;
+    }
+  
+    .container-products div:nth-child(8) {
+      background-image: url("images/ipad.jpg");
+      width: 430px;
+      height: 200px;
+    }
+  
+  footer {
+    padding: 48px 64px;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .legal{
+    font-size: 12px;
+    display:flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items:center;
+    color: var(--black);
+  }
+  
+  #throne-icon{
+    margin-right: 10px;
+    width: 16px;
+    height: 16px;
+  }
+  
+  .contact{
+    display:flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    align-items:center;
+  }
+  
+  footer li:after {
+    content: "/";
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  footer li:last-child:after{
+    content: " ";
+  }
+  
+  .contact img {
+    padding-right: 8px;
+    width: 20px;
+    height:auto;
+  }
+  
+  .horizontal-scroll-wrapper{
+    display:block;
+    top:0;
+    left:0;
+    margin:0;
+    overflow: scroll;
+  }
+  
+    
+    
