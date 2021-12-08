@@ -121,9 +121,13 @@
       background-color: var(--primary);
       text-align: center;
       justify-content: center;
-      width: 96px;
+      width: 125px;
       height: 29px;
       line-height: 29px;
+    }
+
+    .btn-cta:hover {
+      color: var(--black);
     }
   
     .filter {
@@ -172,14 +176,12 @@
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
+      background-color: var(--primary);
   }  
   
-  #overlay{
-    background-color: var(--primary);
-  }
-  
-  #overlay:hover{
+  .item:hover{
     opacity: 0.5;
+    filter: var(--primary);
   }
   
     .container-products div:nth-child(1) {
